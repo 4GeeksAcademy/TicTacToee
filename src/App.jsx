@@ -1,8 +1,10 @@
 import React from 'react';
+import "./App.css";
+import TicTacToe from './components/TicTacToe';
 
-const App = () => {
+function App() {
     return (
-        <h1>REACT APP</h1>
+        <TicTacToe />
     )
 }
 
